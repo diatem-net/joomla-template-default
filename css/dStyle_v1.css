@@ -1,0 +1,112 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, 
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend{ margin:0px; padding:0px; }
+ 
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body{ height: 100%; position:relative}
+*{outline:none;}
+a img{ border:0px;}
+textarea{ resize:none;}
+table{ border-collapse:collapse;}
+.clearfix,.clear{ clear:both;}
+.clearSize{ clear:both; font-size:0px;}
+.relative{ position:relative;}
+.floatRight{ float:right;}
+.floatLeft{ float:left;}
+.displayNone{ display:none;}
+.displayBlock{ display: block;}
+.textAlignRight{ text-align:right;}
+.textAlignJustify{ text-align:justify;}
+.relative{ position: relative;}
+.overflowHidden{ overflow:hidden;}
+.hidden{ display: none;}
+.w100{ width:100%;}
+.w1280{position:relative; max-width:1280px; margin:auto; }
+.w1280-m{ position:relative; max-width:1280px;  margin:auto; }
+.col1{ width:100%;}
+.col2{ width:50%; float:left;}
+.col3{ width:33.3%; float:left;}
+.col4{ width:25%; float:left;}
+
+.col2-m-1{ width:50%; float:left; padding-right:2%;}
+.col2-m-2{ width:50%; float:left; padding-left:2%;}
+
+.col3-m-1{ width:33.33%; float:left; padding-right:2%;}
+.col3-m-2{ width:33.33%; float:left; padding-left:1%;  padding-right:1%;}
+.col3-m-3{ width:33.33%; float:left; padding-left:2%}
+
+.col4-m-1{ width:25%; float:left; padding-right:2%;}
+.col4-m-2,
+.col4-m-3{ width:25%; float:left; padding-left:1%;  padding-right:1%;}
+.col4-m-4{ width:25%; float:left; padding-left:2%}
+
+
+.col2-f-1{ width: calc(50% - 25px); float:left; margin-right:50px;}
+.col2-f-2{ width: calc(50% - 25px); float:left;}
+
+.col3-f-1,
+.col3-f-2{ width:calc(33.33% - 33.33px); float:left; margin-right:50px;}
+.col3-f-3{ width:calc(33.33% - 33.33px); float:left; }
+
+.col4-f-1,
+.col4-f-2,
+.col4-f-3{ width:calc(25% - 37.5px); float:left; margin-right:50px;}
+.col4-f-4{ width:calc(25% - 37.5px); float:left;}
+
+
+
+/***********A CHAGER PAR SITE**********/
+
+::selection {}
+::-moz-selection {}
+
+body{}
+
+h1,h1 a{ }
+h2,h2 a{ }
+h3,h3 a{ }
+h4,h4 a{ }
+h5,h5 a{ }
+
+a{text-decoration:none;}
+
+
+select,
+textarea,
+input[type=tel],
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=email]{
+  
+	}
+
+textarea:hover,
+input[type=tel]:hover,
+input[type=text]:hover,
+input[type=email]:hover,
+input[type=submit]:hover{
+	
+	}	
+
+textarea:focus,
+input[type=tel]:focus,
+input[type=email]:focus,
+input[type=text]:focus,
+input[type=submit]:focus{
+	
+	}	
+
+
+input[type=submit],
+button{  
+    cursor:pointer;
+}
+
+.error{}
+
