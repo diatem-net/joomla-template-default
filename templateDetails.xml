@@ -5,15 +5,15 @@
 	<author>Diatem</author>
 	<authorEmail>jlfritz@diatem.net</authorEmail>
 	<authorUrl>http://www.diatem.net</authorUrl>
-	<copyright>Copyright (C) 2014 Diaem</copyright>
+	<copyright>Copyright (C) 2015 Diaem</copyright>
 	<license>GNU General Public License version 2 ou supérieure</license>
-	<version>2.6.0</version>
+	<version>3.0.0</version>
 	<description>Diatem</description>
 	<files>
-		<folder>css</folder>		
+		<folder>css</folder>              		
 		<folder>images</folder>
 		<folder>js</folder>
-		<folder>font</folder>
+		<folder>fonts</folder>
 		<folder>html</folder>
 		<filename>index.php</filename>
 		<filename>index.html</filename>
@@ -29,5 +29,6 @@
             <position>inComponent</position>
             <position>afterComponent</position>
             <position>footer</position>
+			<position>debug</position>
 	</positions>
 </extension>
